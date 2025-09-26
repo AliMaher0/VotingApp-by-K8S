@@ -24,12 +24,12 @@ minikube start --driver=docker
 kubectl create namespace voting-app
 
 3. Apply Manifests
-  kubectl apply -f redis.yaml -n voting-app
-  kubectl apply -f db.yaml -n voting-app
-  kubectl apply -f vote.yaml -n voting-app
-  kubectl apply -f worker.yaml -n voting-app
-  kubectl apply -f result.yaml -n voting-app
-  kubectl apply -f ingress.yaml -n voting-app   # optional
+  - kubectl apply -f redis.yaml -n voting-app
+  - kubectl apply -f db.yaml -n voting-app
+  - kubectl apply -f vote.yaml -n voting-app
+  - kubectl apply -f worker.yaml -n voting-app
+  - kubectl apply -f result.yaml -n voting-app
+  - kubectl apply -f ingress.yaml -n voting-app   # optional
 
 Accessing the Application
 
